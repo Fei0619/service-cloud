@@ -1,0 +1,5 @@
+com\test\ib\web\dao\DeptDao.class
+com\test\ib\web\controller\DeptController.class
+com\test\ib\web\service\DeptService.class
+com\test\ib\web\ProviderDept8083_Application.class
+com\test\ib\web\service\impl\DeptServiceImpl.class

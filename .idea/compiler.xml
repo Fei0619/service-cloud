@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api" />
+        <module name="consumer-dept-80" />
+        <module name="consumerdeptfeign" />
+        <module name="consumerhystrixdashboard" />
+        <module name="eureka-7001" />
+        <module name="eureka7001" />
+        <module name="eureka7002" />
+        <module name="eureka7003" />
+        <module name="provider-dept-8081" />
+        <module name="providerdept8081" />
+        <module name="providerdept8082" />
+        <module name="providerdept8083" />
+        <module name="providerdepthystrix8081" />
+        <module name="servicecloudconnfig3344" />
+        <module name="servicecloudconnfigclient3355" />
+        <module name="zuulgateway9550" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="abc" target="1.8" />
+      <module name="consumerdept8082" target="1.8" />
+      <module name="deptfeign" target="1.8" />
+      <module name="provider-dept-8001" target="1.8" />
+      <module name="providerdept8001" target="1.8" />
+      <module name="zuulgateway9527" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

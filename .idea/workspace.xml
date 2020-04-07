@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8813727-d74a-4984-b388-23e533ba5fff" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2426fa97-4f8b-45aa-815e-759ec06aa4c7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/test/ib/web/entity/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/test/ib/web/feign/DeptClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/test/ib/web/feign/DeptClientServiceFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/test/ib/web/entity/Dept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/test/ib/web/feign/DeptClientService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/test/ib/web/feign/DeptClientServiceFallbackFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/test/ib/web/feign/DeptClientServiceFallbackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/service-cloud.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/test/ib/myrule/MySelfRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/test/ib/myrule/RandomRuler_my.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/test/ib/web/ConsumerDept80_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/test/ib/web/cfgbean/ConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/test/ib/web/controller/DeptController_Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/target/classes/META-INF/consumer-dept-80.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/target/classes/com/test/ib/myrule/MySelfRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/target/classes/com/test/ib/myrule/RandomRuler_my.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/target/classes/com/test/ib/web/ConsumerDept8082_Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/target/classes/com/test/ib/web/ConsumerDept80_Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/target/classes/com/test/ib/web/cfgbean/ConfigBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-80/target/classes/com/test/ib/web/controller/DeptController_Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-feign/consumerdeptfeign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/test/ib/web/ConsumerDeptFeign_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/test/ib/web/controller/DeptController_Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-feign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-feign/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-feign/target/classes/com/test/ib/web/ConsumerDeptFeign_Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-feign/target/classes/com/test/ib/web/controller/DeptController_Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-feign/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-feign/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-feign/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-dept-feign/target/service-cloud.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/consumerhystrixdashboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/src/main/java/com/test/ib/web/Consumer_HystrixDashboard_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-hystrix-dashboard/target/classes/com/test/ib/web/Consumer_HystrixDashboard_Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7001/src/main/java/com/test/ib/web/EurekaServer7001_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7001/target/classes/com/test/ib/web/EurekaServer7001_Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7001/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7001/target/service-cloud.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7002/src/main/java/com/test/ib/web/EurekaServer7002_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7002/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7002/target/classes/com/test/ib/web/EurekaServer7002_Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7002/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7002/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7002/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7002/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7002/target/service-cloud.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7003/src/main/java/com/test/ib/web/EurekaServer7003_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7003/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7003/target/classes/com/test/ib/web/EurekaServer7003_Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7003/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7003/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7003/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7003/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-7003/target/service-cloud.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/src/main/java/com/test/ib/web/ProviderDept8081_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/src/main/java/com/test/ib/web/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/src/main/java/com/test/ib/web/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/src/main/java/com/test/ib/web/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/src/main/java/com/test/ib/web/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/src/main/resources/mybatis/mapper/deptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/target/classes/com/test/ib/web/ProviderDept8081_Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/target/classes/com/test/ib/web/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/target/classes/com/test/ib/web/dao/DeptDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/target/classes/com/test/ib/web/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/target/classes/com/test/ib/web/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/target/classes/mybatis/mapper/deptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/target/classes/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8081/target/service-cloud.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/src/main/java/com/test/ib/web/ProviderDept8082_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/src/main/java/com/test/ib/web/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/src/main/java/com/test/ib/web/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/src/main/java/com/test/ib/web/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/src/main/java/com/test/ib/web/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/src/main/resources/mybatis/mapper/deptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/target/classes/com/test/ib/web/ProviderDept8082_Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/target/classes/com/test/ib/web/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/target/classes/com/test/ib/web/dao/DeptDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/target/classes/com/test/ib/web/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/target/classes/com/test/ib/web/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/target/classes/mybatis/mapper/deptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/target/classes/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8082/target/service-cloud.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/src/main/java/com/test/ib/web/ProviderDept8083_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/src/main/java/com/test/ib/web/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/src/main/java/com/test/ib/web/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/src/main/java/com/test/ib/web/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/src/main/java/com/test/ib/web/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/src/main/resources/mybatis/mapper/deptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/target/classes/com/test/ib/web/ProviderDept8083_Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/target/classes/com/test/ib/web/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/target/classes/com/test/ib/web/dao/DeptDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/target/classes/com/test/ib/web/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/target/classes/com/test/ib/web/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/target/classes/mybatis/mapper/deptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/target/classes/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-8083/target/service-cloud.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/java/com/test/ib/web/ProviderDeptHystrix8081_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/java/com/test/ib/web/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/java/com/test/ib/web/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/java/com/test/ib/web/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/java/com/test/ib/web/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/resources/mybatis/mapper/deptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/target/classes/com/test/ib/web/ProviderDeptHystrix8081_Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/target/classes/com/test/ib/web/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/target/classes/com/test/ib/web/dao/DeptDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/target/classes/com/test/ib/web/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/target/classes/com/test/ib/web/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/target/classes/mybatis/mapper/deptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-dept-hystrix-8081/target/classes/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-3344/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-3344/src/main/java/com/test/ib/web/ServiceCloudConfig3344_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-3344/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-3344/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-3344/target/classes/com/test/ib/web/ServiceCloudConfig3344_Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-client-3355/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-client-3355/servicecloudconnfigclient3355.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/java/com/test/ib/web/ServiceCloudConfigClient_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/java/com/test/ib/web/rest/ConfigClientRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-client-3355/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-client-3355/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-client-3355/target/classes/com/test/ib/web/ServiceCloudConfigClient_Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-cloud-connfig-client-3355/target/classes/com/test/ib/web/rest/ConfigClientRest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-gateway-9550/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-gateway-9550/src/main/java/com/test/ib/web/ZuulGateway_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-gateway-9550/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-gateway-9550/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-gateway-9550/target/classes/com/test/ib/web/ZuulGateway_Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-gateway-9550/zuulgateway9550.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/api/target/" />
+    <ignored path="$PROJECT_DIR$/provider-dept-8001/target/" />
+    <ignored path="$PROJECT_DIR$/provider-dept-8081/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-dept-8082/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-7001/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-7002/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-7003/target/" />
+    <ignored path="$PROJECT_DIR$/provider-dept-8083/target/" />
+    <ignored path="$PROJECT_DIR$/provider-dept-8082/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-dept-80/target/" />
+    <ignored path="$PROJECT_DIR$/dept-feign/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-dept-feign/target/" />
+    <ignored path="$PROJECT_DIR$/provider-dept-hystrix-8081/target/" />
+    <ignored path="$PROJECT_DIR$/consumer-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/zuul-gateway-9527/target/" />
+    <ignored path="$PROJECT_DIR$/abc/target/" />
+    <ignored path="$PROJECT_DIR$/zuul-gateway-9550/target/" />
+    <ignored path="$PROJECT_DIR$/service-cloud-connfig-3344/target/" />
+    <ignored path="$PROJECT_DIR$/service-cloud-connfig-client-3355/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="service_cloud" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider-dept-8082/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer-dept-80/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer-dept-feign/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/java/com/test/ib/myrule/MySelfRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/provider-dept-8081/src/main/java/com/test/ib/web/service/DeptService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>devtools</find>
+      <find>spring-cloud-starter-eureka</find>
+      <find>api</find>
+      <find>actu</find>
+      <find>eureka</find>
+      <find>ribbon</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/consumer-dept-80/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/provider-dept-8082/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/provider-dept-8083/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/test/ib/web/Test.java" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/test/ib/web/cfgbean/ConfigBean.java" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/test/ib/myrule/RandomRuler_my.java" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/test/ib/myrule/MySelfRule.java" />
+        <option value="$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/test/ib/web/ConsumerDept80_Application.java" />
+        <option value="$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/test/ib/web/cfgbean/ConfigBean.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/test/ib/web/service/DeptClientService.java" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/test/ib/web/ConsumerDept80_Application.java" />
+        <option value="$PROJECT_DIR$/provider-dept-8081/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/provider-dept-8082/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-dept-8083/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-dept-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/test/ib/web/ConsumerDeptFeign_Application.java" />
+        <option value="$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/java/com/test/ib/web/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/java/com/test/ib/web/ProviderDept8081_Application.java" />
+        <option value="$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/java/com/test/ib/web/dao/DeptDao.java" />
+        <option value="$PROJECT_DIR$/provider-dept-hystrix-8081/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/test/ib/web/controller/DeptController_Consumer.java" />
+        <option value="$PROJECT_DIR$/consumer-dept-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/test/ib/web/feign/DeptClientServiceFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/test/ib/web/feign/DeptClientService.java" />
+        <option value="$PROJECT_DIR$/consumer-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-hystrix-dashboard/src/main/java/com/test/ib/web/Consumer_HystrixDashboard_Application.java" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/test/ib/web/controller/Test1.java" />
+        <option value="$PROJECT_DIR$/consumer-dept-80/src/main/java/com/test/ib/web/controller/Test.java" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9527/src/main/java/com/test/ibb/web/ZuulGateWay_Application.java" />
+        <option value="$PROJECT_DIR$/provider-dept-8081/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9527/src/main/java/com/test/ib/web/ZuulGateWay_Application.java" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9527/src/main/java/com/test/ib/web/ZuulGateway_Application.java" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9527/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9527/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9550/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9550/src/main/java/com/test/ib/web/ZuulGateway_Application.java" />
+        <option value="$PROJECT_DIR$/zuul-gateway-9550/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-cloud-connfig-3344/pom.xml" />
+        <option value="$PROJECT_DIR$/service-cloud-connfig-3344/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-cloud-connfig-3344/src/main/java/com/test/ib/web/ServiceCloudConfig3344_Application.java" />
+        <option value="$PROJECT_DIR$/service-cloud-connfig-client-3355/pom.xml" />
+        <option value="$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/java/com/test/ib/web/ConfigClientRest.java" />
+        <option value="$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/java/com/test/ib/web/rest/ServiceCloudConfigClient_Application.java" />
+        <option value="$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/java/com/test/ib/web/ServiceCloudConfigClient_Application.java" />
+        <option value="$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/java/com/test/ib/web/rest/ConfigClientRest.java" />
+        <option value="$PROJECT_DIR$/api/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="service-cloud-connfig-client-3355" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="service-cloud-connfig-client-3355" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="395" />
+    <option name="width" value="1470" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service_cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ib" type="462c0819:PsiDirectoryNode" />
+              <item name="myrule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="service_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service_cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer-dept-feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565949592515" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test.ib.web.controller" />
+      <recent name="com.test.ib.web" />
+      <recent name="web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\好好学习\code\service_cloud\zuul-gateway-9527\src\main\resources" />
+      <recent name="D:\好好学习\code\service_cloud\provider-dept-hystrix-8081\src\main\resources" />
+      <recent name="D:\好好学习\code\service_cloud\provider-dept-hystrix-8081\src\main\java" />
+      <recent name="D:\好好学习\code\service_cloud\consumer-dept-feign\src\main\java\com\test\ib\web" />
+      <recent name="D:\好好学习\code\service_cloud\consumer-dept-feign\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.15719064" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceCloudConfigClient_Application">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="zuulgateway9527" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="zuulgateway9527" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer7003_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka7003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.ib.web.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ib.web.EurekaServer7003_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderDept8081_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="provider-dept-8081" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.ib.web.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ib.web.ProviderDept8081_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceCloudConfig3344_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="servicecloudconnfig3344" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.ib.web.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ib.web.ServiceCloudConfig3344_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceCloudConfigClient_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="servicecloudconnfigclient3355" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.ib.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ib.web.ServiceCloudConfigClient_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulGateway_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zuulgateway9550" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.ib.web.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.ib.web.ZuulGateway_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ZuulGateway_Application" />
+      <item itemvalue="Spring Boot.EurekaServer7003_Application" />
+      <item itemvalue="Spring Boot.ProviderDept8081_Application" />
+      <item itemvalue="Spring Boot.ServiceCloudConfig3344_Application" />
+      <item itemvalue="Spring Boot.ServiceCloudConfigClient_Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServiceCloudConfigClient_Application" />
+        <item itemvalue="Spring Boot.ServiceCloudConfig3344_Application" />
+        <item itemvalue="Spring Boot.ProviderDept8081_Application" />
+        <item itemvalue="Spring Boot.EurekaServer7003_Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8813727-d74a-4984-b388-23e533ba5fff" name="Default Changelist" comment="" />
+      <created>1561017523487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561017523487</updated>
+      <workItem from="1561017528046" duration="7382000" />
+      <workItem from="1561079693739" duration="3735000" />
+      <workItem from="1561087423203" duration="2630000" />
+      <workItem from="1561338731530" duration="648000" />
+      <workItem from="1561342174299" duration="6229000" />
+      <workItem from="1561453427953" duration="1034000" />
+      <workItem from="1561454480957" duration="1708000" />
+      <workItem from="1561511767403" duration="10232000" />
+      <workItem from="1561615601136" duration="9589000" />
+      <workItem from="1561684051896" duration="11256000" />
+      <workItem from="1561878064426" duration="6622000" />
+      <workItem from="1561943255188" duration="897000" />
+      <workItem from="1562048100098" duration="2050000" />
+      <workItem from="1562053955426" duration="6955000" />
+      <workItem from="1562080251896" duration="1350000" />
+      <workItem from="1562116134900" duration="22704000" />
+      <workItem from="1562160984947" duration="1926000" />
+      <workItem from="1562202843237" duration="8424000" />
+      <workItem from="1562548755528" duration="11519000" />
+      <workItem from="1562594235447" duration="1799000" />
+      <workItem from="1562634426357" duration="1693000" />
+      <workItem from="1562658608143" duration="7631000" />
+      <workItem from="1562680331417" duration="713000" />
+      <workItem from="1562681576451" duration="3765000" />
+      <workItem from="1562721327192" duration="1059000" />
+      <workItem from="1562808709182" duration="3959000" />
+      <workItem from="1562895102145" duration="9457000" />
+      <workItem from="1562919712203" duration="2071000" />
+      <workItem from="1563153291278" duration="1162000" />
+      <workItem from="1563503071162" duration="2894000" />
+      <workItem from="1563757617959" duration="898000" />
+      <workItem from="1563953081774" duration="754000" />
+      <workItem from="1565073144746" duration="624000" />
+      <workItem from="1565080923627" duration="6668000" />
+      <workItem from="1565139867978" duration="3625000" />
+      <workItem from="1565147722710" duration="6528000" />
+      <workItem from="1565686917206" duration="4840000" />
+      <workItem from="1565747159258" duration="9549000" />
+      <workItem from="1565787213110" duration="964000" />
+      <workItem from="1565789118082" duration="337000" />
+      <workItem from="1565857694894" duration="840000" />
+      <workItem from="1565916918085" duration="5270000" />
+      <workItem from="1586239047805" duration="256000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="194246000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="316" y="0" width="1176" height="830" extended-state="0" />
+    <layout>
+      <window_info id="Alibaba Cloud Explorer" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49773756" weight="0.3038835" />
+      <window_info id="DB Browser" order="4" weight="0.32865733" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5022625" side_tool="true" weight="0.18632708" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info x="750" y="65" width="349" height="703" id="Web" order="8" side_tool="true" type="FLOATING" weight="0.33557692" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.49932975" weight="0.47368422" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50067025" side_tool="true" weight="0.40311173" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="6" visible="true" weight="0.32808024" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.24177396" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.31241083" />
+      <window_info anchor="bottom" id="Find" order="11" weight="0.32859176" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32956153" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32673267" />
+      <window_info anchor="bottom" id="Spring" order="16" weight="0.32956153" />
+      <window_info anchor="right" id="Alibaba Function Compute" />
+      <window_info anchor="right" id="Alibaba Log Console" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.23703042" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32908848" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.48470807" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24975799" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32913843" />
+      <window_info anchor="right" id="Mybatis datasource" order="11" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>dao.findAll()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/eureka-7002/src/main/java/com/test/ib/web/EurekaServer7002_Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="689" selection-start-line="689" selection-end-line="689" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-gateway-9527/src/main/java/com/test/ib/web/ZuulGateway_Application.java" />
+    <entry file="file://$PROJECT_DIR$/zuul-gateway-9527/src/main/java/com.test.ib.web/Application" />
+    <entry file="file://$PROJECT_DIR$/zuul-gateway-9527/zuulgateway9527.iml" />
+    <entry file="file://$PROJECT_DIR$/abc/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/abc/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-gateway-9527/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/zuul-gateway-9527/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/eureka-7003/src/main/java/com/test/ib/web/EurekaServer7003_Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/java/com/test/ib/web/ProviderDeptHystrix8081_Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-hystrix-8081/src/main/java/com/test/ib/web/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="14" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8082/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8081/src/main/java/com/test/ib/web/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-gateway-9550/src/main/java/com/test/ib/web/ZuulGateway_Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-gateway-9550/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-gateway-9550/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="64" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="64" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-cloud-connfig-3344/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-cloud-connfig-3344/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="76" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="76" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/java/com/test/ib/web.java" />
+    <entry file="file://$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/java/com/test/ib/web/rest/ServiceCloudConfigClient_Application.java" />
+    <entry file="file://$PROJECT_DIR$/service-cloud-connfig-3344/src/main/java/com/test/ib/web/ServiceCloudConfig3344_Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-cloud-connfig-client-3355/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/java/com/test/ib/web/ServiceCloudConfigClient_Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/java/com/test/ib/web/rest/ConfigClientRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-cloud-connfig-client-3355/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8081/src/main/java/com/test/ib/web/dao/DeptDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="5" selection-start-line="12" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/annotations/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-7001/src/main/java/com/test/ib/web/EurekaServer7001_Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8081/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="59" column="49" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/test/ib/web/feign/DeptClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" selection-start-line="31" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/test/ib/web/ConsumerDeptFeign_Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/test/ib/web/feign/DeptClientServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8081/src/main/java/com/test/ib/web/ProviderDept8081_Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-dept-feign/src/main/java/com/test/ib/web/controller/DeptController_Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-7001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8081/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8082/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-dept-80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-dept-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-dept-80/src/main/java/com/test/ib/myrule/MySelfRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-dept-8081/src/main/java/com/test/ib/web/service/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>service_cloud</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.56</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

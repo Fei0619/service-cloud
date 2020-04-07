@@ -1,0 +1,4 @@
+com\test\ib\web\feign\DeptClientServiceFallbackFactory.class
+com\test\ib\web\feign\DeptClientService.class
+com\test\ib\web\feign\DeptClientServiceFallbackFactory$1.class
+com\test\ib\web\entity\Dept.class
